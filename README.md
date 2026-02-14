@@ -1,51 +1,42 @@
-# 🛡️ RPG de Turnos - Simulação em Python
+# ⚔️ RPG de Turno - Python POO
 
-Este é um projeto de batalha RPG em turnos desenvolvido para aplicar e consolidar conceitos fundamentais de **Programação Orientada a Objetos (POO)** em Python.
+![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
-## 🚀 Objetivo
+Este é um sistema de batalha de RPG baseado em turnos, desenvolvido para consolidar meus estudos em **Programação Orientada a Objetos (POO)** com Python. O projeto simula o combate entre dois personagens, levando em conta atributos como velocidade para determinar a ordem de ataque.
 
-O objetivo principal foi construir um sistema onde diferentes classes de personagens interagem entre si, utilizando pilares da POO para garantir um código limpo, escalável e organizado.
-
-## 🧠 Conceitos de POO Aplicados
-
-Neste projeto, foquei na implementação dos seguintes conceitos:
-
-* **Abstração:** Criação de uma classe base `Personagem` que define atributos e comportamentos comuns.
-* **Herança:** As classes `Guerreiro` e `Mago` herdam da classe base, reaproveitando lógica e adicionando especializações.
-* **Polimorfismo:** O método de `tomar_dano` foi sobrescrito na classe `Guerreiro` para incluir a lógica de redução por armadura.
-* **Encapsulamento:** Proteção de atributos sensíveis (como a vida e o dano) para garantir que o estado do objeto seja alterado apenas através de métodos específicos.
-* **Composição:** Personagens podem possuir objetos da classe `Arma`, demonstrando como objetos podem ser compostos por outros.
+## 🚀 O que o projeto faz atualmente?
+* **Sistema de Personagens:** Criação de heróis com atributos de nome, vida, força e velocidade.
+* **Gerenciamento de Atributos:** Uso de `@property` para encapsulamento.
+* **Lógica de Combate:** Sistema que decide quem ataca primeiro (com fator de desempate aleatório para velocidades iguais).
+* **Interface via Console:** Logs detalhados de cada turno e do dano causado.
 
 ## 🛠️ Tecnologias Utilizadas
-
-* [Python 3](https://www.python.org/)
-
-## 🎮 Como Funciona
-
-O sistema permite criar personagens com atributos distintos e realizar batalhas em turnos.
-
-```python
-# Exemplo de uso
-espada = Arma(nome="Excalibur", dano_extra=10)
-arthur = Guerreiro(nome="Arthur")
-arthur.equipar(espada)
-
-merlin = Mago(nome="Merlin")
-
-# Início do combate
-arthur.atacar(merlin)
-
-```
-
-## 🎯 Evoluções Futuras
-
-* [ ] Adicionar sistema de esquiva baseado em agilidade.
-* [ ] Implementar poções de cura (Itens consumíveis).
-* [ ] Criar uma interface básica via terminal com menus interativos.
+* **Python 3.x**
+* **Módulos Nativos:** `time` (para intervalos entre turnos) e `random` (para sorteio de iniciativa).
 
 ---
 
-**Desenvolvido por [Matheus Goveia]**
+## 🏗️ Futuras Implementações (Roadmap)
+Como este projeto faz parte do meu aprendizado contínuo, pretendo adicionar as seguintes funcionalidades em breve:
+
+### 🛡️ Equipamentos e Status
+- [ ] **Sistema de Armas:** Cada arma adicionará bônus de ataque ou efeitos especiais.
+- [ ] **Armaduras:** Implementação do atributo de **Defesa** para reduzir o dano recebido.
+- [ ] **Novos Status:** Adição de **Crítico** (baseado em sorte) e **Esquiva** (baseada em agilidade).
+
+### 🧙 Diversidade de Classes
+- [ ] Criar subclasses como `Guerreiro`, `Mago` e `Arqueiro` usando **Herança**.
+- [ ] Habilidades especiais únicas para cada classe.
+
+### 🕹️ Experiência do Usuário
+- [ ] **Menu Interativo:** Um menu inicial para criar personagens e configurar a batalha sem mexer no código.
+- [ ] **Sistema de Nível:** Ganho de experiência (XP) após as vitórias.
+
+---
+
+## ✒️ Autor
+**Matheus Goveia**
 *Conecte-se comigo no [LinkedIn*](www.linkedin.com/in/matheus-goveia)
 
 ---
+> "O aprendizado é o único investimento que nunca perde o valor."
