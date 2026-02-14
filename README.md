@@ -2,6 +2,8 @@
 
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
+![Demonstração do Jogo](assets/Batalha.gif)
+
 Este é um sistema de batalha de RPG baseado em turnos, desenvolvido para consolidar meus estudos em **Programação Orientada a Objetos (POO)** com Python. O projeto simula o combate entre dois personagens, levando em conta atributos como velocidade para determinar a ordem de ataque.
 
 ## 🚀 O que o projeto faz atualmente?

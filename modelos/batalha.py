@@ -29,11 +29,11 @@ class Batalha:
             
             turno += 1
             print()
-            time.sleep(1)
+            time.sleep(0.6)
 
         vencedor = self._lutador1 if self._lutador1.vivo else self._lutador2
         print(f"O VENCEDOR É: {vencedor.nome}!")
 
     def _realizar_turno(self, atacante, defensor):
         atacante.atacar(defensor)
-        time.sleep(0.8)
+        time.sleep(0.35)
