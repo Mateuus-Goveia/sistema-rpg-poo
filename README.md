@@ -2,7 +2,9 @@
 
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
-![Demonstração do Jogo](assets/Batalha.gif)
+<div align="center">
+  <img src="assets/Batalha.gif" width="500px" alt="Demonstração do RPG">
+</div>
 
 Este é um sistema de batalha de RPG baseado em turnos, desenvolvido para consolidar meus estudos em **Programação Orientada a Objetos (POO)** com Python. O projeto simula o combate entre dois personagens, levando em conta atributos como velocidade para determinar a ordem de ataque.
 
@@ -37,8 +39,10 @@ Como este projeto faz parte do meu aprendizado contínuo, pretendo adicionar as 
 ---
 
 ## ✒️ Autor
-**Matheus Goveia**
-*Conecte-se comigo no [LinkedIn*](www.linkedin.com/in/matheus-goveia)
+<div>
+  <a href="https://www.linkedin.com/in/matheus-goveia" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://github.com/Mateuus-Goveia" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+</div>
 
 ---
 > "O aprendizado é o único investimento que nunca perde o valor."
